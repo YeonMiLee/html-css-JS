@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    .menu {
+      width: 605px;
+      height: 35px;
+      margin: 35px auto;      
+    }    
+    ul {
+      height: 35px;
+      background-color: linen;
+      box-shadow: 0 2px 5px 0;
+      list-style: none;
+    }
+    ul li {
+      width: 100px;
+      border-right: 1px solid black;
+      text-align: center;
+      float: left;
+    }
+    ul li:not([last-child]):hover {
+      background-color: black;
+      color: white;
+    }
+    ul li:last-child {
+      border-right: none;
+    }
+  </style>
+</head>
+<body>
+  <nav class="menu">
+    <ul>
+      <li><a href="#">메뉴1</a></li>
+      <li><a href="#">메뉴2</a></li>
+      <li><a href="#">메뉴3</a></li>
+      <li><a href="#">메뉴4</a></li>
+      <li><a href="#">메뉴5</a></li>
+      <li><a href="#">메뉴6</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
